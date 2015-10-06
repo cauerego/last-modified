@@ -4,7 +4,7 @@ function getLastModifiedText() {
 	var lastModified = document.lastModified;
 	if (typeof lastModified == "string" && lastModified.length > 0) {
 		lastModified = new Date(lastModified).toISOString();
-		return "<strong>Last Modified:</strong><br>" + lastModified + "<br><em>(timezone is UTC)</em>";
+		return "<strong>Last Modified:</strong><br>" + lastModified;
 	} else {
 		return "Could not determine a last modified date.";
 	}
