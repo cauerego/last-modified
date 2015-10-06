@@ -2,31 +2,31 @@
 	display: block;
 	box-sizing: border-box;
 	position: fixed;
-	z-index: 999;
+	z-index: 987654321;
 	top: 20px;
 	line-height: 1.2em;
 	padding: 10px 20px;
-	width: 175px;
-	right: -160px;
+	width: 222px;
+	right: -210px;
 	border: 2px solid #222;
 	color: #fff;
-	font-family: Helvetica, arial, sans-serif;	
+	font-family: Helvetica, arial, sans-serif;
 	background: #222;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	font-size: 14px;
 	text-align: left;
-    transition: 2s;
+	transition: .5s;
 	opacity: 0.9;
 }
 .last-modified em {
 	font-size: 0.8em;
 }
 .last-modified:hover {
-	transition: 2s;
+	transition: .5s;
     right: 0px;
 }
 .last-modified.hidden {
 	opacity: 0;
-	transition: 2s; 
+	transition: .5s;
 }
